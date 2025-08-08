@@ -33,6 +33,7 @@ section#telefone{
     height: 627px;
     
 }
+/* Tela do celular */
 iframe#tela{
     position: relative;
     top: 80px;
@@ -41,4 +42,33 @@ iframe#tela{
     height: 471px;
     
 
+}
+/* Ícones das redes sociais posiçoes*/
+section#redes-sociais{
+text-align: center;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+top: 20px;
+}
+/* Ícones das redes sociais */
+section#redes-sociais img{
+width: 50px;
+margin: 10px;
+border-radius: 50%;
+box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+box-sizing: border-box;
+
+}
+/* Efeito hover nos ícones das redes sociais */
+section#redes-sociais img:hover{
+border: 2px solid #ffffffb6;
+transform: translate(-5px, -5px);
+box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
 }
